@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-07T20:40:52.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="sPfVGuHUpR6jXJ7RDScj" version="14.4.4" type="github">
-  <diagram id="vnQc-Ibh3bxFLK3tPflv" name="Page-1">
-    <mxGraphModel dx="868" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2021-03-07T20:49:59.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="3Ugt8YhPLQAVU72PIS5x" version="14.4.4" type="github" pages="2">
+  <diagram id="vnQc-Ibh3bxFLK3tPflv" name="Architecture">
+    <mxGraphModel dx="868" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,6 +111,35 @@
               <mxPoint x="950" y="400" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="49Hwc5F3oOfdhoQqVnAH" name="Monitoring">
+    <mxGraphModel dx="868" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="sIXcrMZDs_pwGHRsb5xM-0" />
+        <mxCell id="sIXcrMZDs_pwGHRsb5xM-1" parent="sIXcrMZDs_pwGHRsb5xM-0" />
+        <mxCell id="sIXcrMZDs_pwGHRsb5xM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sIXcrMZDs_pwGHRsb5xM-1" source="sIXcrMZDs_pwGHRsb5xM-2" target="sIXcrMZDs_pwGHRsb5xM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXcrMZDs_pwGHRsb5xM-2" value="Prometheus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sIXcrMZDs_pwGHRsb5xM-1">
+          <mxGeometry x="160" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXcrMZDs_pwGHRsb5xM-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sIXcrMZDs_pwGHRsb5xM-1" source="sIXcrMZDs_pwGHRsb5xM-3" target="sIXcrMZDs_pwGHRsb5xM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXcrMZDs_pwGHRsb5xM-3" value="Grafana" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="sIXcrMZDs_pwGHRsb5xM-1">
+          <mxGeometry x="360" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXcrMZDs_pwGHRsb5xM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="sIXcrMZDs_pwGHRsb5xM-1" source="sIXcrMZDs_pwGHRsb5xM-5" target="sIXcrMZDs_pwGHRsb5xM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXcrMZDs_pwGHRsb5xM-5" value="Splunk/Logstash" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sIXcrMZDs_pwGHRsb5xM-1">
+          <mxGeometry x="560" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sIXcrMZDs_pwGHRsb5xM-6" value="Alert Service" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="sIXcrMZDs_pwGHRsb5xM-1">
+          <mxGeometry x="360" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
