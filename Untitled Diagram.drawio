@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T14:30:12.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="TYYjUAPnIboQ19kq9PNN" version="14.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-11T14:31:41.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="rAJX1QBgFSHYYesEe9UY" version="14.4.6" type="github" pages="2">
   <diagram id="vnQc-Ibh3bxFLK3tPflv" name="Architecture">
     <mxGraphModel dx="868" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="1">
       <root>
@@ -149,7 +149,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mfwfWm7pcln66UkmU38H-20" value="Cloud Data Reader Service" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="743" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="741" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
